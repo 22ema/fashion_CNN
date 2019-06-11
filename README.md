@@ -18,14 +18,19 @@ We want new application to use this convolution neural network.
  ## update 2019-06-11
  
  - clothes_testing
+
  -- kr
+
  쉘 스크립트를 이용하여 rinux 환경에서 리눅스 부팅과 동시에 이미지를 분류하는 코드를 실행시킨다.
  이때 새로운 이미지 파일이 들어오는지를 정해준 시간마다 확인하여 새로운 파일이 들어오면 다시 코드를 실행하는 방향으로 구현하였다.
  아쉽게도 현재 프로그램은 background에서 무한루프형태로 돌아가고 있어서 성능이 좋지 아니하다. 차후 개선필요
  -- en
+
  Run the code that classifies the image at the same time as the Linux boot in the rinux environment using a shell script.
-At this time, it was implemented in a way to check if a new image file was coming in every specified time and to execute the code again when a new file came in.
-Unfortunately, the current program is returning from the background to the infinity loop, and performance is not good. Need to improve later
+ 
+ At this time, it was implemented in a way to check if a new image file was coming in every specified time and to execute the code again when a new file came in.
+ 
+ Unfortunately, the current program is returning from the background to the infinity loop, and performance is not good. Need to improve later
  
  
 
